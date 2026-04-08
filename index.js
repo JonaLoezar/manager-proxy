@@ -3,7 +3,7 @@ const fetch   = require("node-fetch");
 const cors    = require("cors");
 
 const app  = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 const MANAGER_BASE = process.env.MANAGER_BASE || "https://onbsmerino.managermas.cl";
 const MANAGER_TOKEN = process.env.MANAGER_TOKEN || "ab9e36a328813ba45e8bb6431b3217648e412049";
